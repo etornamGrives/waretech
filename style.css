@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;/*font-family: 'Poppins', sans-serif; */
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    top: 1rem;
+    z-index: 10;
+}
+.nav-div{
+    background-color:  white;
+    display: flex;
+    gap: 8rem;
+    justify-content: center;
+    margin: 0rem 7rem ;
+    padding: 0.2rem 0 0.5rem 0;
+    border-radius: 3px;
+    box-shadow: 1px 2px 20px 2px rgba(73, 73, 73, 0.334) ;
+    align-items: center;
+}
+
+.nav-items{
+    display: flex;
+    gap: 5rem;
+    font-size: small;
+   
+}
+
+.nav-items a{
+    margin-top: 1rem;
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    padding: 1rem 2rem;
+}
+
+.nav-items a:hover{
+    color: white;
+    background-color: black;
+    
+}
+
+.first-button{
+    padding: 0.7rem 1.5rem 0.7rem 1.5rem;
+    border: none;
+    background-image: linear-gradient(0deg,rgb(52, 52, 252),rgb(63, 141, 244));
+    border-radius: 2px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.logo img{
+    width: 2rem;
+    height: 2rem;
+}
+
+.logo{
+    display: flex;
+    gap: 0.7rem;
+}
+
+.home-sec{
+    background-image: url('./Image/home.jpg');
+    background-size: cover; /* or specify 'contain' or custom values */
+    background-position: top; /* or specify custom position */
+    background-repeat: no-repeat;
+    height: 45rem;  
+    position: relative;
+    top: 0;
+    z-index: 1;
+}
+
+.home-sec::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 70%;
+    z-index: -1;
+
+}
+.home-statement{
+    padding-top: 15rem;
+    padding-left:7rem ;
+}
+
+.two , .two-1{
+    font-family: 'Teko', sans-serif;
+    font-size: 4rem;
+    color: white;
+    opacity: 85%;
+}
+
+.two-1{
+    margin-bottom: ;
+}
+
+.one{
+    font-size: small;
+    color: white;
+    opacity: 85%;
+}
+
+.three{
+    font-size: small;
+    color: white;
+    opacity: 85%;
+}
+
+.second-button{
+    padding: 0.7rem 1.5rem 0.7rem 1.5rem;
+    margin-top: 2rem;
+    border: none;
+    background-image: linear-gradient(0deg,rgb(52, 52, 252),rgb(63, 141, 244));
+    border-radius: 2px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    box-shadow: 1px 2px 20px 2px rgba(231, 229, 229, 0.334);
+}
+
+.first-txt{
+    font-family: 'Teko', sans-serif;
+    font-size: 1.5rem;
+    margin-top: -0.4rem;
+}
+
+.second-txt{
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+    margin-top: -0.5rem;
+}
+
+.check-box{
+    font-size: 1.5rem;
+    float: right;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+.about-sec{
+    display: flex;
+    margin: 7rem 7rem;
+    gap: 5rem;
+}
+
+.about-sec img{
+    height: 35rem;
+}
+
+.header-line{
+    display: flex;
+    gap: 1rem;
+}
+
+.dash-vert1{
+    height: 1rem;
+    width: 2px;
+    border-radius: 2px;
+    background-color: rgb(54, 127, 253);
+}
+
+.about{
+    font-weight:bolder;
+    font-size: small;
+    margin-bottom: 1rem;
+    color: rgb(54, 127, 253);
+}
+
+.prov, .sns{
+    font-family: 'Teko', sans-serif;
+    font-size: 4rem;
+    opacity: 85%;
+}
+
+.sns{
+    margin-top: -1.5rem;
+}
+
+.head-text{
+    padding: 2rem 3rem;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 1px 2px 20px 2px rgba(73, 73, 73, 0.334) ;
+    font-size: 1rem;
+}
+
+.head-n{
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    font-weight: bold;
+
+}
+
+.dash-line{
+    height: 1.5px;
+    width: 1rem;
+    border-radius: 2px;
+    background-color: rgb(54, 127, 253);
+    margin-top: 0.6rem;
+}
+
+.head-name1{
+    color:  rgb(54, 127, 253);
+}
+
+.service-sec .header-line {
+    margin: 0 7rem;
+    padding-top: 2rem;
+}
+
+.spec{
+    display: flex;
+    gap: 2rem;
+    margin: 2rem 0 ;
+    font-size: small;
+}
+
+.spec p{
+    margin-top: 10px;
+}
+
+.dash-vert2{
+    height: 2.5rem;
+    width: 1px;
+    border-radius: 2px;
+    background-color: rgba(99, 99, 100, 0.282);
+    margin-top: 0.6rem;
+}
+
+.service-sec{
+    background-color: rgb(244, 245, 248);
+    height: 35rem;
+}
+
+.wt, .pt{
+    font-family: 'Teko', sans-serif;
+    font-size: 4rem;
+    opacity: 85%;
+    margin: 0 7rem;
+}
+
+.pt{
+    margin-top: -1.5rem;
+}
+
+.option{
+    display: flex;
+    gap: 3.5rem;
+    margin-top: 6px;
+    font-size: small;
+}
+
+.card-sec{
+    display: flex;
+    gap: 4rem;
+    margin: 1rem 7rem;
+}
+
+.service-card{
+    padding: 3rem;
+    background-color: white;
+    border-style:solid;
+    border-color: rgba(0, 0, 0, 0.048);
+    border-width: 2px;
+}
+
+.s-01{
+    margin-top: 1rem;
+    font-weight: bolder;
+    margin-bottom: 0.5rem;
+}
+
+.p-01{
+    margin-bottom: 1rem;
+    font-weight: bolder;
+}
+
+.person{
+    font-size: 2rem;
+    color:  rgb(54, 127, 253);
+}
+
+.option i{
+    color:  rgb(54, 127, 253);
+}
