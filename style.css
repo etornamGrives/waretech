@@ -89,6 +89,7 @@ nav{
     z-index: -1;
 
 }
+
 .home-statement{
     padding-top: 15rem;
     padding-left:7rem ;
@@ -99,10 +100,6 @@ nav{
     font-size: 4rem;
     color: white;
     opacity: 85%;
-}
-
-.two-1{
-    margin-bottom: ;
 }
 
 .one{
@@ -244,7 +241,7 @@ nav{
 
 .service-sec{
     background-color: rgb(244, 245, 248);
-    height: 35rem;
+    height: 40rem;
 }
 
 .wt, .pt{
@@ -297,4 +294,100 @@ nav{
 
 .option i{
     color:  rgb(54, 127, 253);
+}
+
+.mess-inner{
+    display: flex;
+    gap: 1rem;
+    margin-top: 8px;
+}
+
+.gh{
+    display: flex;
+    gap: 5rem;
+    background-color: white ;
+    padding: 1rem 2rem;
+    border-radius: 2px;
+    box-shadow: 1px 2px 20px 2px rgba(73, 73, 73, 0.334) ;
+    justify-content: center;
+    margin: 0 7rem;
+    margin-top: -3rem;
+    font-size: small;
+    font-weight: bold;
+    
+}
+
+.mess-inner i{
+    color: rgb(54, 127, 253) ;
+    margin-top: 10px;
+}
+
+.ms-line{
+    height: 3rem;
+    width: 1.5px;
+    border-radius: 2px;
+    background-color: rgba(99, 99, 100, 0.282);
+    margin-left: 4rem;
+}
+
+.target{
+    display: grid;
+    justify-content: center;
+    margin: 7rem 0;
+}
+
+.target-sent01, .target-sent02 {
+    font-family: 'Teko', sans-serif;
+    font-size: 4rem;
+    display: grid;
+    justify-content: center;
+}
+
+.target-sent02{
+    margin-top: -1.5rem;
+}
+
+.target .header-line{
+    display: flex;
+    justify-content: center;
+}
+
+.target-btn{
+    display: grid;
+    justify-content: center;
+}
+
+.contact-sec{
+    margin: 0rem 7rem;
+}
+
+.snd-mess{
+    display: flex;
+}
+
+.send-mess{
+    background-color: white ;
+    padding: 2.5rem 5rem;
+    border-radius: 2px;
+    box-shadow: 1px 2px 20px 2px rgba(73, 73, 73, 0.334) ;
+}
+
+.get-in-t p{
+    font-family: 'Teko', sans-serif;
+    font-size: 4rem;
+}
+
+#form input{
+    width: 25rem;
+    height: 2.5rem;
+    border: 1px solid rgba(121, 121, 121, 0.23);
+    border-radius: 3px;
+}
+
+.info-sec{
+    width: 15rem;
+    background-image: linear-gradient(0deg,rgb(52, 52, 252),rgb(63, 141, 244));
+    border-radius: 2px;
+    height: 15rem;
+    
 }
