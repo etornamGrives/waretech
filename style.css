@@ -358,7 +358,7 @@ nav{
 }
 
 .contact-sec{
-    margin: 0rem 7rem;
+    margin: 0rem 7rem 7rem 7rem;
 }
 
 .snd-mess{
@@ -367,7 +367,7 @@ nav{
 
 .send-mess{
     background-color: white ;
-    padding: 2.5rem 5rem;
+    padding: 4rem 10rem 5rem 10rem;
     border-radius: 2px;
     box-shadow: 1px 2px 20px 2px rgba(73, 73, 73, 0.334) ;
 }
@@ -389,5 +389,143 @@ nav{
     background-image: linear-gradient(0deg,rgb(52, 52, 252),rgb(63, 141, 244));
     border-radius: 2px;
     height: 15rem;
+    padding: 5rem;
+    margin-top: 3rem;
+    margin-left: -3rem;
     
+}
+
+.info-sen{
+    font-weight: bold;
+    color: white;
+    margin-bottom: 2.5rem;
+}
+
+.contact-info{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+    color: white;
+}
+
+#form input:focus{
+    outline: none;
+    border: 1.5px solid rgb(54, 127, 253);
+
+}
+.message-text0{
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.foot01{
+    display: flex;
+    margin: 0 7rem;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.foot-sec{
+    padding-top: 3rem;
+    color: white;
+    background-image: url(./Image/footer.jpg);
+    background-size: cover; /* or specify 'contain' or custom values */ /* or specify custom position */
+    background-repeat: no-repeat;
+    height: 22rem;  
+    position: relative;
+    top: 0;
+    z-index: 1;
+}
+
+.foot-sec::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 70%;
+    z-index: -1;
+}
+
+.quick-l-sub a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    font-size: small;
+    margin-top: 15px;
+
+}
+
+.get-sec-sub, .service-foot-sub{
+    display: grid;
+    gap: 15px;
+    font-size: small;
+    margin-top: 15px;
+
+}
+
+.white-sec{
+    display: flex;
+    gap: 7rem;
+    margin: 0 7rem;
+    background-color: white;
+    color: black;
+    justify-content: center;
+    margin: 0rem 7rem ;
+    padding: 1rem 0 1rem 0;
+    border-radius: 3px;
+    box-shadow: 1px 2px 20px 2px rgba(209, 205, 205, 0.334) ;
+    align-items: center;
+}
+
+.final-foot{
+    margin-top: 4rem;
+}
+
+.socials{
+    display: flex;
+    gap: 1.5rem;
+    color: rgb(77, 157, 249);
+}
+
+.copyright{
+    font-size: small;
+}
+
+.foot-btn-02{
+    padding: 0.7rem 1.5rem 0.7rem 1.5rem;
+    border: none;
+    background-image: linear-gradient(0deg,rgb(52, 52, 252),rgb(63, 141, 244));
+    border-radius: 2px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    width: 9.5rem;
+    margin-top: 15px;
+}
+
+.foot-btn-01{
+    padding: 0.7rem 1.5rem 0.7rem 1.5rem;
+    border: none;
+    background-color: black;
+    border-radius: 2px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    border: 2px solid rgba(134, 158, 203, 0.445);
+}
+
+.foot-sec-btn01{
+    display: grid;
+    margin-top: 15px;
+}
+
+.get-sec-head, .quick-l-head, .footer-mess-head, .footer-mess-sub, .service-foot-head
+{
+    font-weight: bold;
+}
+
+.footer-mess-sub
+{
+    margin-top: 15px;
 }
