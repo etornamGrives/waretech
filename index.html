@@ -232,18 +232,24 @@
         <div class="snd-mess">
             <div class="send-mess">
                 <p class="message-text0" style="font-size: medium;">Send Us A Message</p>
-                <p clsss="message-txt" style="opacity: 50%;">Feel free to leave us a message anytime.</p>
+                <p clsss="message-txt" style="margin-bottom: 2rem; font-size: small;" >Feel free to leave us a message anytime.</p>
                 <form id="form" action="https://formsubmit.co/grivesetornam@gmail.com" method="POST">
                     <input type="hidden" name="_subject" value="New Message!">
-                    <p style="margin-top: 2rem;">Name</p>
-                    <input id="name" type="text"  placeholder="" required>
-                    <p >Email</p>
-                    <input id="youremail" type="email"  placeholder="" required>
-                    <p>Mobile Number</p>
-                    <input id="numberss" type="tel" name="tel"  placeholder="">
-                    <p>Message</p>
-                    <div class="ios-mess">
-                    <input  type="text"  id="message" placeholder="" required >
+                    <div class="input-group">
+                        <input id="name" type="text"  placeholder="" required>
+                        <p class="n-name">Name</p>
+                    </div>
+                    <div class="input-group">
+                        <input id="youremail" type="email"  placeholder="" required>
+                        <p class="n-name" >Email</p>
+                    </div>
+                    <div class="input-group">
+                        <input id="numberss" type="tel" name="tel"  placeholder="" required>
+                        <p class="n-name">Mobile Number</p>
+                    </div>
+                    <div class="input-group">
+                        <input  type="text"  id="message" placeholder="" required >
+                        <p class="n-name">Message</p>
                     </div>
                     <button onclick="sendMessage();" id="messbtn" type="submit" class="first-button"> Send Now!</button>
                 </form >
